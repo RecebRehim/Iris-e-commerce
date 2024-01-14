@@ -132,6 +132,20 @@ h4{
 .col-4:hover{
     transform: translateY(-15px);
 }
+/*------------------offer--------------*/
+
+.offer{
+    background: radial-gradient(#fff,#ffa9f2);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color:#555;
+}
+
 /*---------------------------menu-------------------*/
 .menu-icon{
     width:20px;
