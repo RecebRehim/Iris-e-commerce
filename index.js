@@ -28,6 +28,10 @@ app.get('/productDetail', (req, res) => {
   // index.html dosyasını gönder
   res.sendFile(path.join(__dirname, 'views', 'productDetail.html'));
 });
+app.get('/about', (req, res) => {
+  // index.html dosyasını gönder
+  res.sendFile(path.join(__dirname, 'views', 'about.html'));
+});
 
 
 
